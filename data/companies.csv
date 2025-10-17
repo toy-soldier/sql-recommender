@@ -1,0 +1,11 @@
+company_id,ticker,name,industry,sector,market_cap
+1,AC,Ayala Corporation,Finance,Conglomerate,720000000
+2,BDO,BDO Unibank,Finance,Banking,890000000
+3,MER,Meralco,Energy,Utilities,540000000
+4,TEL,PLDT Inc.,Tech,Telecommunications,680000000
+5,ALI,Ayala Land,Finance,Real Estate,410000000
+6,ICT,ICTSI,Energy,Infrastructure,520000000
+7,GLO,Globe Telecom,Tech,Telecommunications,650000000
+8,URC,Universal Robina Corp.,Finance,Consumer,390000000
+9,AP,Aboitiz Power,Energy,Utilities,470000000
+10,MEG,Megaworld Corp.,Finance,Real Estate,380000000
