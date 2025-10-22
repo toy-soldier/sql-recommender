@@ -1,11 +1,13 @@
 company_id,ticker,name,industry,sector
-1,aC,Ayala Corporation,Finance,Conglomerate
-2,BDO,BDO Unibank,Finance,Banking
-3,MER,Meralco,Energy,Utilities
-4,Tel,PLDT Inc.   ,Tech,Telecommunications
-5,ALI,Ayala Land,Finance,Real Estate
-6,ICT,            ICTSI,Energy,Infrastructure
-7,GLO,Globe Telecom,Tech,Telecommunications
-8,URC,Universal Robina Corp.,finance,Consumer
-9,AP,Aboitiz Power,Energy,Utilities
-10,meg,Megaworld Corp.,Finance,Real Estate
+1,aC,Ayala Corporation,holding FIRMS,holding FIRMS
+2,BDO,BDO Unibank,banks,financials
+3,MER,Meralco,Energy,INDUSTRIAL
+4,Smc,San Miguel Corporation,holding FIRMS,holding FIRMS
+5,MBT,Metropolitan Bank & Trust,banks,financials
+6,fgen,            First Gen Corporation,Energy,industrial
+7,gtcap,GT Capital,holding FIRMS,holding FIRMS
+8,sEcB,Security Bank Corporation,banks,financials
+9,AP,Aboitiz Power,Energy,industrial
+10,PNB,Philippine National Bank,banks,financials
+11,jgs,JG Summit,holding FIRMS,holding FIRMS
+12,spc  ,SPC Power Corporation,Energy,industrial

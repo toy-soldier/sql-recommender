@@ -1,4 +1,37 @@
-industry,avg_pe,avg_roe
-Finance,15.2,0.12
-Tech,18.5,0.16
-Energy,13.8,0.1
+industry,year,quarter,avg_pe,avg_roe
+Holding Firms,2021,1,12.2,0.12
+Banks,2021,1,10.9,0.16
+Energy,2021,1,8.3,0.1
+Holding Firms,2021,2,12.2,0.13
+Banks,2021,2,10.8,0.13
+Energy,2021,2,7.9,0.06
+Holding Firms,2021,3,11.8,0.12
+Banks,2021,3,10.7,0.14
+Energy,2021,3,9.3,0.08
+Holding Firms,2021,4,12.1,0.14
+Banks,2021,4,11.1,0.16
+Energy,2021,4,12,0.11
+Holding Firms,2022,1,12.23,0.15
+Banks,2022,1,10.93,0.19
+Energy,2022,1,8.33,0.13
+Holding Firms,2022,2,12.23,0.16
+Banks,2022,2,10.83,0.16
+Energy,2022,2,7.93,0.09
+Holding Firms,2022,3,11.83,0.15
+Banks,2022,3,10.73,0.17
+Energy,2022,3,9.33,0.11
+Holding Firms,2022,4,12.13,0.17
+Banks,2022,4,11.13,0.19
+Energy,2022,4,12.03,0.14
+Holding Firms,2023,1,12.3,0.22
+Banks,2023,1,11,0.26
+Energy,2023,1,8.4,0.2
+Holding Firms,2023,2,12.3,0.23
+Banks,2023,2,10.9,0.23
+Energy,2023,2,8,0.16
+Holding Firms,2023,3,11.9,0.22
+Banks,2023,3,10.8,0.24
+Energy,2023,3,9.4,0.18
+Holding Firms,2023,4,12.2,0.24
+Banks,2023,4,11.2,0.26
+Energy,2023,4,12.1,0.21
