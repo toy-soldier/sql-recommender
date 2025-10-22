@@ -23,6 +23,8 @@ This project uses the environment file `.env` in the home directory to store dat
     DB_USER=<database username>
     DB_PASSWORD=<database password>
 
-## Next Steps
+## Tools
 
-1. Create a web scraper to fetch recent financial data from the Philippine Stock Exchange.
+1. SQL
+2. Jupyter Notebook
+3. Python
