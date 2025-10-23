@@ -1,30 +1,83 @@
 # SQL Recommender
 
-A a SQL-driven ranking system that scores Philippine stocks using basic fundamentals like profitability, valuation, and leverage.
+A SQL-driven ranking system that scores Philippine stocks using basic fundamentals such as profitability, valuation, and leverage.
 
-## Goal
+---
 
-Build a pure-SQL engine that computes financial ratios, compares companies to industry benchmarks, and outputs Buy/Hold/Sell recommendations.
+## Project Summary
 
-## Structure
+This project builds a **pure-SQL engine** that computes financial ratios, ranks companies within their industries, and generates Buy/Hold/Sell recommendations.
 
-- /data : CSVs (companies, financials, industry_benchmarks)
-- /sql  : SQL scripts (cleaning, ratios, ranking, recommendations)
-- /notebooks : Notebook to narrate SQL queries and results
-- /output : final CSVs
+The mock dataset contains quarterly financial data for Philippine stocks, combining:
 
-## Environment file
+- **Companies** — tickers, names, sectors, industries  
+- **Financials** — quarterly statements per company  
+- **Industry Benchmarks** — quarterly reference values per industry  
 
-This project uses the environment file `.env` in the home directory to store database credentials.  The file contents are as follows:
+![Datasets used chart showing 3 datasets combined for analysis](assets/schema.png)
 
-    DB_SERVER=localhost
-    DB_PORT=<database port; usually 5432>
-    DB_NAME=fundamentals
-    DB_USER=<database username>
-    DB_PASSWORD=<database password>
+The project demonstrates the ability to:
+
+1. **Load data** — take CSV files and write them to database tables  
+2. **Clean messy data** — handle typos, nulls, and inconsistent formats  
+3. **Analyze data** — perform ranking, aggregation, and windowed calculations using SQL  
+4. **Use views** — maintain modular, readable, and reproducible workflows  
+5. **Communicate visually** — turn raw SQL output into clear, data-driven insights  
+
+---
 
 ## Tools
 
-1. SQL
-2. Jupyter Notebook
-3. Python
+- **SQL** — Core logic for cleaning, transformation, and analytics  
+- **PostgreSQL** — Database engine  
+- **Jupyter Notebook** — Documentation and SQL narration  
+- **Python** — For loading CSVs into the database  
+
+---
+
+## Environment Setup
+
+The project uses an environment file (`.env`) to store database credentials.  
+Example contents:
+
+    DB_SERVER=localhost
+    DB_PORT=5432
+    DB_NAME=fundamentals
+    DB_USER=<your_username>
+    DB_PASSWORD=<your_password>
+
+---
+
+## Data Notice
+
+All data used in this project is **synthetic** and was generated solely for demonstration and learning purposes.  No real financial or market data was used.
+
+---
+
+## Repository Structure
+
+    sql-recommender/
+    │
+    ├── data/                # CSV files
+    │
+    ├── notebooks/
+    │   ├── 0_setup.ipynb
+    │   ├── 1_load_data.ipynb
+    │   ├── 2_cleaning.ipynb
+    │   └── 3_analysis_ranking.ipynb
+    │
+    ├── assets/              # screenshots and schema diagrams
+    └── README.md
+
+---
+
+## Portfolio Positioning
+
+This project is part of a four-piece portfolio that showcases range and depth as a data analyst:
+
+- **SQL Recommender Dashboard** → Fundamentals ranking dashboard (analytical SQL + structured reasoning)  
+- **EV Dashboard** → Climate storytelling (business insight + visualization)  
+- **STARZZ Dashboard** → Statistics-heavy science analysis (data cleaning + stats)  
+- **Curly Memory** → Python finance tracker (discipline + automation)  
+
+Together, these projects demonstrate proficiency in **data wrangling, analytical SQL, statistical reasoning, and clear data storytelling**.
